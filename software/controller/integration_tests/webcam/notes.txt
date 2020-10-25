@@ -55,3 +55,8 @@ Live streaming:
 - Run the script with the KEY passed as the argument: ./stream-to-youtube.sh 8yuc-2eb2-74e9-tmb6-2cm6 (this is an example key)
 - Check that on the YouTube Dashboard that the status has gone from OFFLINE to STARTING to LIVE
 - The URL for the stream is available at the bottom of the page
+
+- There are two webcams are connected to Martin's setup, the server name is bigcheese.
+- There are two scripts called stream-webcam1_to-youtube.sh and stream-webcam2_to-youtube.sh added to /usr/local/bin.
+- Just run them as sudo to stream the live on Youtube from a selected webcam. The current setup is not allowed to
+- stream both webcams onto YouTube.

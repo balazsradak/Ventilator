@@ -11,9 +11,9 @@ if [ "$1" != "" ]; then
 	FPS="24"                                       # FPS 
 	QUAL="1280x720"                                # Quality
 	YOUTUBE_URL="rtmp://a.rtmp.youtube.com/live2"  # URL 
-	MIC="hw:CARD=WEBCAM_1,DEV=0"
+	MIC="hw:CARD=WEBCAM,DEV=0"
 	SOURCE="/dev/video0"                           # Webcam
-	KEY= "$1"                                      # Key
+	KEY="$1"                                       # Key
 
 
 	ffmpeg -f alsa -ac 1 -ar 16000 -i $MIC \
@@ -22,4 +22,5 @@ if [ "$1" != "" ]; then
 	       -preset ultrafast -strict experimental \
 	       -r $FPS -g 20 -b:v $VBR -codec:a libmp3lame \
 	       -ar 44100 -b:a 11025 \
-	       -bufsize 512k -f flv $YOUTUBE_URL/$KEY"
+	       -bufsize 512k -f flv $YOUTUBE_URL/$KEY
+fi
