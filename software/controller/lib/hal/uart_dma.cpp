@@ -19,6 +19,7 @@
 extern UART_DMA dmaUART;
 
 // Performs UART3 initialization
+// [RM] 38.5.3 USART Character reception procedure pg. 1205
 void UART_DMA::init(int baud) {
   // Set baud rate register
   uart->baud = CPU_FREQ / baud;
@@ -74,6 +75,7 @@ void UART_DMA::init(int baud) {
 }
 
 // Sets up an interrupt on matching char incomming form UART3
+// [RM] 38.8.8 Interrupt and status register (USART_ISR) pg. 1253
 void UART_DMA::charMatchEnable() {
   uart->intClear.s.cmcf = 1; // Clear char match flag
   uart->ctrl1.s.cmie = 1;    // Enable character match interrupt
@@ -95,6 +97,7 @@ bool UART_DMA::isRxInProgress() {
 // Returns false if DMA transmission is in progress, does not
 // interrupt previous transmission.
 // Returns true if no transmission is in progress
+// [RM] 38.5.2 USART transmitter pg. 1201
 bool UART_DMA::startTX(const char *buf, uint32_t length) {
   if (isTxInProgress()) {
     return false;
