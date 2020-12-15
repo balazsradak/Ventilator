@@ -42,6 +42,8 @@ Here is the CAD model for viewing: [autodesk360 link](https://a360.co/2PTyRzh)
 
 Here is a page on the [metal enclosure assembly](enclosure).
 
+### Pneumatics Tray
+
 ### Blower
 
 Note that the check valve should be included with any build where oxygen is used. The check valve is visible in blue in the image below.
