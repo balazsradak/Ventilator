@@ -19,13 +19,47 @@ degree accessibility to components during initial assembly. When complete, this 
 enclosure, and the enclosure is screwed shut. The top-rear positioning of the removable enclosure lid provides
 access to components that will need routine maintenance.
 
+Further aspects of the production packaged design are detailed in the first section of the\
+[Assembly Video](https://youtu.be/2hdV5CWcLb4).
+
 | production ventilator assembly    |  back panel removed   |
 |:---:|:---:|
 | ![](images/enclosed_rendering_face.png) | ![](images/enclosed_rendering_open_back.png)  |
 
 
-Further aspects of the production packaged design are detailed in the first section of the\
-[Assembly Video](https://youtu.be/2hdV5CWcLb4).
+
+>*Consider Removing/replacing with newer renders*
+
+## Design Assembly
+
+
+
+>*Include GA/Sectional Here*
+
+***
+## Bill of Materials
+
+
+| Part ID | Qty | Description | Part Type | Source |
+| ----------- |:----------- | ------------ | ------ | ----- |
+| 001-01 | 1 | Blower Assembly | Assembly | [GitHub](../blower/Readme.md)|
+| 002-01| 1 | Faceplate Assembly | Assembly| [GitHub](faceplate/Readme.md)|
+| 003-01| 2 | Pinch Valve Assembly | Assembly| [GitHub](../pinch_valve/Readme.md)|
+| 004-01| 2 | Venturi Assembly | Assembly | [GitHub](../venturi/Readme.md) |
+| 005-01| 1 | Pizza Build Components | Assembly | [GitHub](../pizza_build/Readme.md) |
+
+>Does the venturi still exist as-is?
+
+### [Pneumatics Assembly](pneumatic_assy)
+
+### [Sheet Metal Enclosure](enclosure)
+
+### 002-01 - Faceplate Assembly
+
+### Filter Plate
+
+***
+
 
 ## India build
 
@@ -42,7 +76,6 @@ Here is the CAD model for viewing: [autodesk360 link](https://a360.co/2PTyRzh)
 
 Here is a page on the [metal enclosure assembly](enclosure).
 
-### Pneumatics Tray
 
 ### Blower
 
