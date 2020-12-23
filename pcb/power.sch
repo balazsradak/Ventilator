@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 14
+Sheet 2 15
 Title "Power Supplies"
 Date ""
 Rev "2.0"
@@ -27,4 +27,10 @@ F1 "power_3.3V_LDO.sch" 50
 $EndSheet
 Text Notes 750  1250 0    118  ~ 24
 Power entry/battery stuff here etc. etc.
+$Sheet
+S 2400 3250 1550 750 
+U 5FE1065D
+F0 "battery_controller" 50
+F1 "battery_controller.sch" 50
+$EndSheet
 $EndSCHEMATC
