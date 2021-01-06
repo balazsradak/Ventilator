@@ -37,22 +37,21 @@ Further aspects of the production packaged design are detailed in the first sect
 >*Include GA/Sectional Here*
 
 ***
-## Bill of Materials
+## Master Bill of Materials
 
 
 | Part ID | Qty | Description | Part Type | Source |
-| ----------- |:----------- | ------------ | ------ | ----- |
-| 001-01| 1 | Blower Assembly | Assembly | [GitHub](../blower)|
-| 002-01| 1 | Faceplate Assembly | Assembly| [GitHub](faceplate)|
-| 003-01| 2 | Pinch Valve Assembly | Assembly| [GitHub](../pinch_valve)|
-| 004-01| 2 | Venturi Assembly | Assembly | [GitHub](../venturi) |
-| 009-01| 1 | Filter Holder Assembly | Assembly | [GitHub](../filter_holder)|
+| ----------- |:--------------- | ------------ | ------ | ----- |
+| 01-00-000| 1 | Ventilator Assembly| Assembly | [Github](#enclosed-build)|
+| 01-01-000| 1 | &nbsp;&nbsp;&nbsp;Enclosure | Fabrication | [Github](enclosure) |
+| 01-02-000| 1 | &nbsp;&nbsp;&nbsp;Pneumatic Assembly | Assembly | [Github](pneumatics)|
+| 01-03-000| 1 | &nbsp;&nbsp;&nbsp;Cooling Fan, 80x80x25, 12VDC, 37CFM, 2500RPM | Purchased | [AliBaba](https://m.alibaba.com/product/60795001398/80x80x25-12volt-low-noise-dc-axial.html?spm=a2700.galleryofferlist.0.0.742d3d15p4MDsQ&s=p&redirect=1)
+| 01-04-000| 1 | &nbsp;&nbsp;&nbsp;Fan guard, 80mm | Purchased | [AliBaba](https://m.alibaba.com/product/62502588126/40mm-50mm-60mm-70mm-80mm-90mm.html?spm=a2700.themePage.offer--list.23.5b445d28m9FCoZ&redirect=1)
+| 01-05-000| 4 | &nbsp;&nbsp;&nbsp;Rubber Bumpers, Threaded, M6 | Purchased| [McMaster](https://www.mcmaster.com/9541K82)|   
+| 01-05-000| 4 | &nbsp;&nbsp;&nbsp;Phillips Pan-Head Screw, M4 x 0.7 x 6mm Lg., AISI 18-8 SS | Purchased| [McMaster](https://www.mcmaster.com/92000A216)|   
 
-### [Pneumatics Assembly](pneumatic_assy)
 
-### [Sheet Metal Enclosure](enclosure)
 
-### 002-01 - Upper Faceplate Assembly
 
 
 
