@@ -42,12 +42,11 @@ Further aspects of the production packaged design are detailed in the first sect
 
 | Part ID | Qty | Description | Part Type | Source |
 | ----------- |:----------- | ------------ | ------ | ----- |
-| 001-01 | 1 | Blower Assembly | Assembly | [GitHub](../blower)|
+| 001-01| 1 | Blower Assembly | Assembly | [GitHub](../blower)|
 | 002-01| 1 | Faceplate Assembly | Assembly| [GitHub](faceplate)|
 | 003-01| 2 | Pinch Valve Assembly | Assembly| [GitHub](../pinch_valve)|
 | 004-01| 2 | Venturi Assembly | Assembly | [GitHub](../venturi) |
-| 005-01| 1 | Pizza Build Components | Assembly | [GitHub](../pizza_build) |
-
+| 009-01| 1 | Filter Holder Assembly | Assembly | [GitHub](../filter_holder)|
 
 ### [Pneumatics Assembly](pneumatic_assy)
 
@@ -55,7 +54,7 @@ Further aspects of the production packaged design are detailed in the first sect
 
 ### 002-01 - Upper Faceplate Assembly
 
-### Filter Plate
+
 
 ***
 
